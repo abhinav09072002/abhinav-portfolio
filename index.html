@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abhinav Verma — Builder</title>
+<title>Abhinav Verma — Software Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
@@ -841,7 +841,7 @@ footer p { font-size: 0.7rem; color: var(--fg-faint); letter-spacing: 0.03em; }
 
 <!-- ── HERO ─────────────────────────────────────────────── -->
 <section id="hero">
-  <div class="hero-eyebrow">Software Engineer &amp; Builder</div>
+  <div class="hero-eyebrow">Software Engineer &amp; Developer</div>
   <h1 class="hero-name">I build systems<br><em>that scale.</em></h1>
   <p class="hero-sub">From LLM-powered pipelines to full-stack products — I turn complex problems into clean, maintainable software that ships and lasts.</p>
   <div class="hero-cta">
@@ -1357,7 +1357,7 @@ async function submitEnquiry() {
   status.style.display = 'block';
 
   try {
-    const res = await fetch('http://localhost:3001/api/enquiry', {
+    const res = await fetch('https://abhinavportfolio-backend.onrender.com/api/enquiry', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, subject, message })
